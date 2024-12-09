@@ -1,6 +1,6 @@
 # Trustpilot Housing Reviews Analysis
 
-![License](https://img.shields.io/github/license/MSSAIStudyGroup/SocialHousing)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://github.com/MSSAIStudyGroup/SocialHousing/blob/main/LICENSE)
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 
 ## Table of Contents
