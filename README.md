@@ -27,8 +27,8 @@ The **Trustpilot Housing Reviews Analysis** project aims to extract and analyze 
 
 This analysis helps in understanding tenant satisfaction, common complaints, and areas requiring improvement for housing providers.
 
-This project was funded by a Campion Grant awarded by Manchester Statistical Society. See https://manstatsoc.org/ for more information.
-An external link to the report accompanying this project can be found here: MSS REPORT LINK WHEN PUBLISHED.
+- **Funding** This project was funded by a Campion Grant awarded by Manchester Statistical Society. See https://manstatsoc.org/ for more information.
+- **Report** An external link to the report accompanying this project can be found here: MSS REPORT LINK WHEN PUBLISHED.
 
 ## Features
 
@@ -47,7 +47,7 @@ SocialHousing/
 ├── Keyword_Analysis_Housing_Association_Reviews_.ipynb  #  Notebook for analyzing keywords within housing association reviews.
 ├── LICENSE  #  Project license file (e.g., MIT License).
 ├── README.md  #  Repository overview, setup instructions, and usage guidelines.
-├── Themes2D.xlsx  #  Excel file containing theme data for visualization and further analysis.
+├── Themes2D.xlsx  #  Excel file containing theme data, with keywords for HACT UK Data Standards classes, for visualization and further analysis.
 └── Trustpilot_review_extractor.ipynb  #  Notebook for scraping reviews from Trustpilot.
 
 ```
