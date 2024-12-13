@@ -27,6 +27,7 @@ The **Trustpilot Housing Reviews Analysis** project aims to extract and analyze 
 
 This analysis helps in understanding tenant satisfaction, common complaints, and areas requiring improvement for housing providers.
 
+This project was funded by a Campion Grant awarded by Manchester Statistical Society. See https://manstatsoc.org/ for more information.
 An external link to the report accompanying this project can be found here: MSS REPORT LINK WHEN PUBLISHED.
 
 ## Features
