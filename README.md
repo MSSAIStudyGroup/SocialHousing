@@ -40,38 +40,15 @@ An external link to the report accompanying this project can be found here: MSS 
 ## Project Structure
 
 ```
-trustpilot-housing-reviews-analysis/
+SocialHousing/
 │
-├── data/
-│   ├── raw/                 # Raw extracted data
-│   ├── processed/           # Cleaned and processed data
-│
-├── notebooks/
-│   ├── Data_Extraction.ipynb
-│   ├── Classification.ipynb
-│
-├── src/
-│   ├── extraction/
-│   │   ├── scraper.py       # Script for scraping Trustpilot reviews
-│   │   └── utils.py         # Utility functions for data extraction
-│   │
-│   ├── classification/
-│   │   ├── classifier.py    # Script for classifying reviews
-│   │   └── preprocess.py    # Data preprocessing for classification
-│   │
-│   └── visualization/
-│       ├── report.py        # Script to generate reports and visualizations
-│       └── charts.py        # Helper functions for creating charts
-│
-├── tests/
-│   ├── test_scraper.py
-│   ├── test_classifier.py
-│   └── test_utils.py
-│
-├── requirements.txt         # Python dependencies
-├── README.md
-├── LICENSE
-└── .gitignore
+├── Housing Association Review Classification and Theme Visualization.ipynb  #  Notebook for classifying reviews and visualizing themes in housing association data.
+├── Keyword_Analysis_Housing_Association_Reviews_.ipynb  #  Notebook for analyzing keywords within housing association reviews.
+├── LICENSE  #  Project license file (e.g., MIT License).
+├── README.md  #  Repository overview, setup instructions, and usage guidelines.
+├── Themes2D.xlsx  #  Excel file containing theme data for visualization and further analysis.
+└── Trustpilot_review_extractor.ipynb  #  Notebook for scraping reviews from Trustpilot.
+
 ```
 
 ## Installation
