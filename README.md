@@ -44,11 +44,12 @@ This analysis helps in understanding tenant satisfaction, common complaints, and
 SocialHousing/
 │
 ├── Housing Association Review Classification and Theme Visualization.ipynb  #  Notebook for classifying reviews and visualizing themes in housing association data.
-├── Keyword_Analysis_Housing_Association_Reviews_.ipynb  #  Notebook for analyzing keywords within housing association reviews.
+├── Keyword Analysis 1 Star Reviews.ipynb  #  Notebook for analyzing keywords within 1 star housing association reviews.
 ├── LICENSE  #  Project license file (e.g., MIT License).
 ├── README.md  #  Repository overview, setup instructions, and usage guidelines.
 ├── Themes2D.xlsx  #  Excel file containing theme data, with keywords for HACT UK Data Standards classes, for visualization and further analysis.
-└── Trustpilot_review_extractor.ipynb  #  Notebook for scraping reviews from Trustpilot.
+├── Trustpilot Review Single Page Extractor.ipynb  #  Notebook for scraping reviews from a single Trustpilot page.
+└── Trustpilot Review Extraction Compilation.ipynb  #  Notebook for systematically extracting across multiple Trustpilot pages.
 
 ```
 
