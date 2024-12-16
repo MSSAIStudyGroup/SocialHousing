@@ -168,25 +168,6 @@ To install all dependencies:
 pip install -r requirements.txt
 ```
 
-## Configuration
-
-### Trustpilot Access
-
-Depending on the Trustpilot scraping approach, you might need:
-
-- **API Access**: If using Trustpilot's API, ensure you have the necessary API keys.
-- **WebDriver Setup**: If using Selenium, download the appropriate WebDriver (e.g., ChromeDriver) and ensure it's in your system's PATH.
-
-### Environment Variables
-
-Create a `.env` file in the root directory to store sensitive information like API keys.
-
-```env
-TRUSTPILOT_API_KEY=your_api_key_here
-```
-
-Ensure to load these variables in your scripts using packages like `python-dotenv`.
-
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
