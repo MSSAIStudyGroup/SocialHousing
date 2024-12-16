@@ -153,21 +153,15 @@ python src/visualization/report.py
 
 ## Dependencies
 
-All required Python packages are listed in `requirements.txt`. Key dependencies include:
+All required Python packages are listed in `requirements.txt`. Key dependencies across all code:
 
-- **BeautifulSoup4**: For web scraping.
-- **Selenium**: For browser automation (if needed).
+- **Requests**: HTTP library for web scraping.
+- **BeautifulSoup4**: Web scraping.
 - **pandas**: Data manipulation and analysis.
 - **scikit-learn**: Machine learning for classification.
 - **NLTK / SpaCy**: Natural language processing.
 - **Matplotlib / Seaborn**: Data visualization.
 - **Jupyter Notebook**: Interactive development.
-
-To install all dependencies:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Contributing
 
