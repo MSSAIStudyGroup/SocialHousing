@@ -159,8 +159,8 @@ All required Python packages are listed in `requirements.txt`. Key dependencies 
 - **BeautifulSoup4**: Web scraping.
 - **pandas**: Data manipulation and analysis.
 - **scikit-learn**: Machine learning for classification.
-- **NLTK / SpaCy**: Natural language processing.
-- **Matplotlib / Seaborn**: Data visualization.
+- **Matplotlib**: Data visualization.
+- **Seaborn**: Data visualization.
 - **Jupyter Notebook**: Interactive development.
 
 ## Contributing
