@@ -122,7 +122,7 @@ Open `Housing Association Review Classification and Theme Visualization.ipynb` a
 
 ## Dependencies
 
-All required Python packages are listed in `requirements.txt`. Key dependencies across all code:
+Required Python packages are:
 
 - **Requests**: HTTP library for web scraping.
 - **BeautifulSoup4**: Web scraping.
