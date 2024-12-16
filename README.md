@@ -35,8 +35,7 @@ This analysis helps in understanding tenant satisfaction, common complaints, and
 - **Automated Data Extraction**: Scrapes Trustpilot reviews for selected housing providers.
 - **Data Cleaning and Preprocessing**: Cleans the extracted data for accurate analysis.
 - **Text Classification**: Categorizes reviews into predefined categories (e.g., Maintenance, Customer Service).
-- **Sentiment Analysis**: Determines the overall sentiment of each review.
-- **Comprehensive Reporting**: Generates summary reports and visualizations of findings.
+- **Reporting**: Generates summary reports and visualizations of findings.
 
 ## Project Structure
 
@@ -45,7 +44,7 @@ SocialHousing/
 │
 ├── Housing Association Review Classification and Theme Visualization.ipynb  #  Notebook for classifying reviews and visualizing themes in housing association data.
 ├── Keyword Analysis 1 Star Reviews.ipynb  #  Notebook for analyzing keywords within 1 star housing association reviews.
-├── LICENSE  #  Project license file (e.g., MIT License).
+├── LICENSE  #  Project license file.
 ├── README.md  #  Repository overview, setup instructions, and usage guidelines.
 ├── Themes2D.xlsx  #  Excel file containing theme data, with keywords for HACT UK Data Standards classes, for visualization and further analysis.
 ├── Trustpilot Review Single Page Extractor.ipynb  #  Notebook for scraping reviews from a single Trustpilot page.
@@ -89,7 +88,7 @@ The data extraction component scrapes Trustpilot for reviews related to specifie
 
 #### Configure Housing Providers
 
-Edit the `src/extraction/scraper.py` file to specify the housing providers you want to analyze.
+Edit the extraction.py file to specify the housing providers you want to analyze.
 
 ```python
 # Example
@@ -105,51 +104,21 @@ housing_providers = [
 ]
 ```
 
-#### Run the Scraper
+#### Run the Data Extraction Tool
 
-You can run the scraper using the provided script or via a Jupyter notebook.
+You can run the data extraction tool using the provided script or via a Jupyter notebook.
 
-**Using the Script:**
+**Using Jupyter Notebook:**
 
-```bash
-python src/extraction/scraper.py
-```
-
-**Using the Jupyter Notebook:**
-
-Open `notebooks/Data_Extraction.ipynb` and run the cells sequentially.
+Open `Trustpilot Review Extraction Compilation.ipynb` and run the cells sequentially.
 
 ### Classification
 
 The classification component processes the extracted reviews and categorizes them based on predefined criteria.
 
-#### Preprocess the Data
+**Using Jupyter Notebook:**
 
-Ensure that the data is cleaned and preprocessed before classification.
-
-```bash
-python src/classification/preprocess.py
-```
-
-#### Run the Classifier
-
-Execute the classification script to categorize the reviews.
-
-```bash
-python src/classification/classifier.py
-```
-
-**Using the Jupyter Notebook:**
-
-Open `notebooks/Classification.ipynb` and run the cells sequentially.
-
-### Generate Reports
-
-After classification, generate comprehensive reports and visualizations.
-
-```bash
-python src/visualization/report.py
-```
+Open `Housing Association Review Classification and Theme Visualization.ipynb` and run the cells sequentially.
 
 ## Dependencies
 
